@@ -1,0 +1,182 @@
+body{
+background-color: #f4f5f6;
+font-family:'Open Sans', sans-serif;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right:0px;
+}
+
+.profile {
+  width:100px;
+  border-radius: 50px;
+  float:right;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+
+img{
+  width:350px;
+  float:right;
+}
+
+
+hr{
+ border-top: 1px solid #122C34;
+}
+
+ul{
+  padding-left:15px;
+  margin:0px;
+}
+
+.header{
+  background-color: #114B5F;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-right:10px;
+
+}
+
+.footer
+{
+  background-color: rgb(40,44,52);
+  padding-top: 1px;
+  padding-bottom:1px;
+  padding-left: 5px;
+  margin-top:15px;
+  color:#6D696A;
+  font-size: 15px;
+}
+
+.footerLink{
+  padding-top: 20px;
+  color:black;
+  float:right;
+  background-color: #7D6167;
+  color: black;
+  padding: 7px 12.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:9px 10px 5px 5px;
+}
+
+.details1{
+  padding-top:50px;
+  padding-right:25px;
+  margin:0px;
+  position: absolute;
+  right: 0px;
+  color:#f4f5f6;
+}
+
+.details2{
+  padding-top:65px;
+  padding-right:25px;
+  margin:0px;
+  position: absolute;
+  right: 0px;
+  color:#f4f5f6;
+}
+
+.details3{
+  padding-top:85px;
+  padding-right:25px;
+  margin:0px;
+  position: absolute;
+  right: 0px;
+  color:#f4f5f6;
+}
+
+.content{
+  margin-left: 15px;
+  margin-right:15px;
+  color:#122C34;
+  border-radius: 25px;
+  background: #DDE0E3;
+  padding: 20px;
+  margin-top:15px;
+}
+
+.contentImg{
+  padding-top: 20px;
+  color:black;
+  float:right;
+  background-color: #7D6167;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:5px;
+}
+.contentImg:hover {
+background-color:#4D6A6D;
+}
+
+
+h1{
+  width: 100px;
+  padding-bottom:20px;
+  padding-top: 25px;
+  padding-left: 20px;
+  margin:0px;
+  white-space: nowrap;
+  display: inline-block;
+  font-size:50px;
+  color:#f4f5f6;
+}
+
+h2{
+  float:right;
+  padding-right:10px;
+  padding-top: 20px;
+  padding-left:40px;
+  margin:0px;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 20px;
+  color:#f4f5f6;
+}
+
+h4{
+  text-decoration: underline;
+  max-width: 200px;
+
+}
+h5{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 15px;
+  color:#122C34;
+}
+
+h6{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 14px;
+  color:#122C34;
+}
+p{
+  color:black;
+  margin-left: 15px;
+  margin-right:25px;
+}
+
+li{
+  list-style-type: none;
+  color:black;
+  margin:0px;
+  padding:0px;
+}
+
+.title{
+  font-weight:bold;
+}
+
+.honeyMumford{
+  width:275px;
+}
