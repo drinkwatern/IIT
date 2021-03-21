@@ -1,96 +1,62 @@
 body{
-background-color: #f4f5f6;
-font-family:'Open Sans', sans-serif;
-margin-bottom: 0px;
-margin-top:0px;
-margin-left: 0px;
-margin-right: 0px;
-}
+  background-color: #f4f5f6;
+  font-family:'Open Sans', sans-serif;
+  margin:0px;
+ }
 
-.profile {
-  width:100px;
-  border-radius: 50px;
+h2{
   float:right;
-  margin-right: 30px;
-  margin-top: 5px;
-}
+  padding-right:25px;
+  padding-top: 5px;
+  padding-left:40px;
+  margin:0px;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 20px;
+  color:#f4f5f6;
+ }
 
+h4{
+  text-decoration: underline;
+  max-width: 200px;
+ }
+
+h5{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 15px;
+  color:#122C34;
+ }
+
+h6{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 14px;
+  color:#122C34;
+ }
 
 img{
   width:350px;
   float:right;
-}
+ }
 
+li{
+  list-style-type: none;
+  color:black;
+  margin:0px;
+  padding:0px;
+ }
 
-hr{
- border-top: 1px solid #122C34;
-}
+p{
+  color:black;
+  margin-left: 15px;
+  margin-right:25px;
+ }
 
 ul{
   padding-left:15px;
   margin:0px;
-}
-
-.header{
-  background-color: #114B5F;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  /*border-radius: 10px;
-  margin-left:15px;
-  margin-right:15px;*/
-
-}
-
-.footer
-{
-  background-color: rgb(40,44,52);
-  padding-top: 1px;
-  padding-bottom:1px;
-  padding-left: 5px;
-  margin-top:15px;
-  color:#6D696A;
-  font-size: 15px;
-}
-
-.footerLink{
-  padding-top: 20px;
-  color:black;
-  float:right;
-  background-color: #7D6167;
-  color: black;
-  padding: 7px 12.5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin:9px 10px 5px 5px;
-}
-
-.details1{
-  padding-top:30px;
-  padding-right:25px;
-  margin:0px;
-  position: absolute;
-  right: 0px;
-  color:#f4f5f6;
-}
-
-.details2{
-  padding-top:45px;
-  padding-right:25px;
-  margin:0px;
-  position: absolute;
-  right: 0px;
-  color:#f4f5f6;
-}
-
-.details3{
-  padding-top:65px;
-  padding-right:25px;
-  margin:0px;
-  position: absolute;
-  right: 0px;
-  color:#f4f5f6;
-}
+ }
 
 .content{
   margin-left: 15px;
@@ -102,7 +68,7 @@ ul{
   margin-top:15px;
   margin-left: 35px;
   margin-right:35px;
-}
+ }
 
 .contentImg{
   padding-top: 20px;
@@ -115,11 +81,86 @@ ul{
   text-decoration: none;
   display: inline-block;
   margin:5px;
-}
+ }
+
 .contentImg:hover {
 background-color:#4D6A6D;
-}
+ }
 
+.details1{
+  padding-top:30px;
+  padding-right:25px;
+  margin:0px;
+  position: absolute;
+  right: 0px;
+  color:#f4f5f6;
+ }
+
+.details2{
+  padding-top:47px;
+  padding-right:25px;
+  margin:0px;
+  position: absolute;
+  right: 0px;
+  color:#f4f5f6;
+ }
+
+.details3{
+  padding-top:65px;
+  padding-right:25px;
+  margin:0px;
+  position: absolute;
+  right: 0px;
+  color:#f4f5f6;
+ }
+
+.footer{
+  background-color: rgb(40,44,52);
+  padding-top: 1px;
+  padding-bottom:1px;
+  padding-left: 5px;
+  margin-top:15px;
+  color:#6D696A;
+  font-size: 15px;
+ }
+
+.footerLink{
+  padding-top: 20px;
+  color:black;
+  float:right;
+  background-color: #7D6167;
+  color: black;
+  padding: 7px 12.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:9px 10px 5px 5px;
+ }
+
+.footerLink:hover{
+  background-color:#4D6A6D;
+ }
+
+.header{
+  background-color: #114B5F;
+  padding-bottom: 20px;
+  padding-top: 10px;
+ }
+
+.honeyMumford{
+  width:275px;
+ }
+
+.profile {
+  width:98px;
+  border-radius: 85px;
+  float:right;
+  margin-right: 30px;
+ }
+
+.title{
+  font-weight:bold;
+ }
 
 .title1{
   width: 100px;
@@ -131,7 +172,7 @@ background-color:#4D6A6D;
   display: inline-block;
   font-size:30px;
   color:#f4f5f6;
-}
+ }
 
 .title2{
   width: 100px;
@@ -141,7 +182,8 @@ background-color:#4D6A6D;
   white-space: nowrap;
   font-size:30px;
   color:#f4f5f6;
-}
+ }
+
 .title3{
   width: 100px;
   padding-left: 20px;
@@ -150,55 +192,4 @@ background-color:#4D6A6D;
   white-space: nowrap;
   font-size:20px;
   color:#f4f5f6;
-}
-
-h2{
-  float:right;
-  padding-right:25px;
-  padding-top: 5px;
-  padding-left:40px;
-  margin:0px;
-  white-space: nowrap;
-  display: inline-block;
-  font-size: 20px;
-  color:#f4f5f6;
-}
-
-h4{
-  text-decoration: underline;
-  max-width: 200px;
-
-}
-h5{
-  margin-top:10px;
-  margin-bottom:10px;
-  font-size: 15px;
-  color:#122C34;
-}
-
-h6{
-  margin-top:10px;
-  margin-bottom:10px;
-  font-size: 14px;
-  color:#122C34;
-}
-p{
-  color:black;
-  margin-left: 15px;
-  margin-right:25px;
-}
-
-li{
-  list-style-type: none;
-  color:black;
-  margin:0px;
-  padding:0px;
-}
-
-.title{
-  font-weight:bold;
-}
-
-.honeyMumford{
-  width:275px;
-}
+ }
